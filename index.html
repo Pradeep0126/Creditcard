@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Credit/Debit Card</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./Style.css">
+<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="./node_modules/bootstrap-social/bootstrap-social.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-front">
+            <div class="card-view-container">
+                <div class="asplogo">
+                    <img src="./aspirelogo.png" class="asplogo-img">
+                </div>
+                <div class="flexbox1">
+                    <div class=" col-sm-12 oncard">
+                        <div class="oncard-holder-name">Mark Henry</div>
+                    </div>
+                    <div class="asplogo">
+                        <img src="./1logo.png" class="asplogo-img">
+                    </div>
+                    <div class="col-lg-12 oncard">
+                        <div class="oncard-cardnumb">**** **** **** 2020</div>
+                    </div>                        
+                    <div class="row oncard">
+                        <div class="col-sm-4 card-moyr">
+                            <span class="exp-day">Thur:</span>
+                            <span class="exp-month">12</span>
+                            <span>/</span>
+                            <span class="exp-year">21</span>
+                        </div>
+                        <div class="col-sm-4 card-cvv ">
+                            <span>CVV:</span> 
+                            <span class="cvv-box">***</span> 
+                            
+                        </div>
+                    </div>        
+                </div>    
+                <div class="visalogo">
+                    <img src="./visalogo.png" class="visalogo-img">
+                </div>       
+            </div>
+        </div>
+        <form class="carddata" action="">
+            <div class="input-card">
+                <span>Card Holder Name</span>
+                <input type="text" maxlength="20" class="card-holder-name">                
+            </div>
+            <div class="input-card">
+                <span>Card Number</span>
+                <input type="text" maxlength="16" class="card-number">                
+            </div>
+            <div class="flexbox">
+                <div class="input-card">
+                    <span>Expiry MM</span>
+                    <select class="expi-month">
+                        <option value="month" selected disabled>Month</option>
+                        <option value="01" >01</option>
+                        <option value="02" >02</option>
+                        <option value="03" >03</option>
+                        <option value="04" >04</option>
+                        <option value="05" >05</option>
+                        <option value="06" >06</option>
+                        <option value="07" >07</option>
+                        <option value="08" >08</option>
+                        <option value="09" >09</option>
+                        <option value="10" >10</option>
+                        <option value="11" >11</option>
+                        <option value="12" >12</option>
+                    </select>    
+                </div>
+                <div class="input-card">
+                    <span>Expiry YY</span>
+                    <select class="expi-year">
+                        <option value="year" selected disabled>Year</option>
+                        <option value="23" >23</option>
+                        <option value="24" >24</option>
+                        <option value="25" >25</option>
+                        <option value="26" >26</option>
+                        <option value="27" >27</option>
+                        <option value="28" >28</option>
+                        <option value="29" >29</option>
+                        <option value="30" >30</option>
+                        <option value="31" >31</option>
+                        <option value="32" >32</option>
+                    </select>    
+                </div>
+            </div>
+            <div class="input-card">
+                <span>CVV</span>
+                <input type="text" maxlength="3" class="card-CVV">
+            </div>
+            <input type="submit" value="submit" class="card-submit-btn">  
+        </form>
+    </div>
+    <script src="./script.js"></script> 
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html> 

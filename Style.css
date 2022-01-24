@@ -1,0 +1,116 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container{
+    
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+}
+.carddata{
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    padding: 50px;
+    width: 800px;
+      
+}
+.input-card{
+    margin-top: 10px;
+}
+.input-card span{
+    display: block;
+    color:rgb(136, 131, 131);
+    padding-bottom: 5px;
+}
+
+.carddata input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+}
+.input-card select{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+}
+.card-CVV{
+    width: 10%!important;
+}
+.flexbox{
+    display: flex;
+   
+}
+.flexbox .input-card{
+    flex: auto;
+}
+
+.card-submit-btn{
+    width: 100%;
+    background:rgb(128, 128, 128);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+.card-submit-btn:hover{
+    letter-spacing: 12px;
+    opacity: 0.5;
+}
+/* /////////////////////////////////////////////////////////////////////// */
+.card-view-container{    
+    height: 400px;
+    width: 600px;
+    background:#67d472;
+    border-radius: 40px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    padding:15px;    
+}
+.asplogo{
+    display: flex; 
+    justify-content: flex-end;   
+}
+.visalogo{
+    display: flex; 
+    justify-content: flex-end;   
+}
+.asplogo-img,.visalogo-img{
+    height: 70px;
+}
+.oncard-holder-name{
+    font-size: 40px;
+    color:#fff;
+}
+.oncard-cardnumb{
+    font-size: 30px;
+    color:#fff;
+    word-spacing: 50px;
+}
+/* .flexbox1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
+.card-moyr,.card-cvv {
+    font-size: 25px;
+    color:#fff;
+}
